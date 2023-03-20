@@ -1,0 +1,12 @@
+.RouterInProgect{
+  display: flex;
+  border-style:double;
+  border-width: 0;
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+  justify-content:center;
+  align-items: center;
+  line-height :50px;
+  padding-left :3px; 
+  padding-right: 5px;
+}

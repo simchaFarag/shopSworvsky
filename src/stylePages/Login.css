@@ -1,0 +1,29 @@
+.mask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+.Login {
+  display:flex;
+  flex-direction: column;
+  top: 50px;
+  margin: 5px;
+  row-gap: 20px;
+  padding: 35px;
+  width: 20%;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color:white;
+  border-radius: 10px;
+}
+@keyframes animatetop{
+    from{opacity:0;}
+    to{opacity: 1;}
+}
+

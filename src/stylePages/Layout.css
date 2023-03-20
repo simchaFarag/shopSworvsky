@@ -1,0 +1,19 @@
+.header{
+    grid-area: header;
+}
+.main{
+    grid-area: section;
+}
+.aside{
+    grid-area: aside;
+}
+navInProgect{
+    display: flex;
+    gap: 10px;
+    border-style:double;
+    border-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-color: black;
+    justify-content: center;
+}

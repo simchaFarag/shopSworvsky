@@ -1,0 +1,7 @@
+.Register{
+    background-image: url("../components/assets/1.jpg");
+    background-size:contain;
+    background-repeat: repeat;
+    
+    background-position: right;
+}
